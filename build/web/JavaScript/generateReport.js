@@ -20,19 +20,20 @@ function generateReport(obj) {
 
     var html = "<table id='displayVulnerable'>";
     var counter = 1;
-    html += "<tr><th>No.</th><th>Vulnerable Dependencies</th><th>CPEs</th><th>Severity</th></tr>";
+    html += "<tr><th>No.</th><th>Vulnerable Dependencies</th><th>CPEs</th><th>Severity</th><th>CVE Counts</th></tr>";
 
-    if (!vulnerableDependencies.dependenciesName.length === 0) {
+    if (vulnerableDependencies.dependenciesName.length > 0) {
         for (i = 0; i < vulnerableDependencies.dependenciesName.length; i++) {
             html += "<tr>";
-            html += "<td>" + counter + "</td>";
+            html += "<td><center>" + counter + "</center></td>";
             html += "<td>" + vulnerableDependencies.dependenciesName[i] + "</td>";
             html += "<td>";
             for (j = 0; j < vulnerableDependencies.CPE[i].length; j++) {
                 html += vulnerableDependencies.CPE[i][j] + "<br>";
             }
             html += "</td>";
-            html += "<td>" + vulnerableDependencies.severity[i] + "</td>";
+            html += "<td><center>" + vulnerableDependencies.severity[i] + "</center></td>";
+            html += "<td><center>" + vulnerableDependencies.CVEcount[i] + "</center></td>";
             html += "</tr>";
             counter++;
         }

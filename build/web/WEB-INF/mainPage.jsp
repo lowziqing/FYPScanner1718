@@ -27,6 +27,15 @@
 
 <body>
     <div class="parallax"> 
+        <div class="navigation">
+        <table class="menu">
+            <tr>
+                <td><a href="http://localhost:8080/FYPScanner-1718/"> HOME </a></td>
+                <td><a href="#home"> HOW IT WORKS </a></td>
+                <td><a href="#home"> STATISTICS </a></td>
+            </tr>
+        </table>
+        </div>
         <h1>Java Application Dependency Scanner</h1>
         <center>
             <img src="Pictures/down.png" style="height:75px;" onclick="scroll_to_div('instruction')" class="goToInstruction">
@@ -84,7 +93,7 @@
     
     <div class="displayHTML" id="displayHTML">
         <center>
-            <img src="Pictures/down.png" style="height:75px;" onclick="scroll_to_div('displayHTML')" class="goToInstruction">
+            <img src="Pictures/down.png" style="height:75px;" onclick="scroll_to_div('displayHTML')" class="goToDisplay">
             <p id="projectName">  </p> 
             <p id="projectDate">  </p>
             <hr>
@@ -106,7 +115,14 @@
                     <td><div id="vulnerabilityChart"></div></td>
                     <td><div id="severityChart"></div></td>
                 </tr>
+                
             </table>
+                
+                <table class="graphChart">
+                    <tr>
+                        <td><div id="CWEchart"></div></td>
+                    </tr>
+                </table>
      
             <div id="dynamicContent">
 

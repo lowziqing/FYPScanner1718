@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 import model.Dependencies;
+import model.HTMLCWE;
 import model.HTMLDisplay;
 import model.HTMLVulnerability;
 import model.MyFolder;
@@ -31,12 +32,14 @@ public class JSONController {
         Dependencies dependencies[] = reportData.getDependencies();
         HTMLDisplay display = (HTMLDisplay) JSOUPController.getInformation(folderID);
         HTMLVulnerability vulnerability = (HTMLVulnerability) JSOUPController.getVulnerableDependencies(folderID);
+        HTMLCWE CWE = (HTMLCWE) JSOUPController.getCWE(folderID);
         
         JSON.add(folder);
         JSON.add(projectInfo);
         JSON.add(dependencies);
         JSON.add(display);
         JSON.add(vulnerability);
+        JSON.add(CWE);
 
         try {
             response.getWriter().write(gson.toJson(JSON));

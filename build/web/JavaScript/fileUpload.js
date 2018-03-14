@@ -35,9 +35,9 @@ $(document).ready(function () {
                     obj = JSON.parse(data);
                     //var folder = obj.map(function(a) {return a.folderName;});
                     generateReport(obj);
-                    scroll_to_div("displayReport");
                     vulnerabilityChart(obj);
-                    severityChart(obj);
+                    highestSeverityChart(obj);
+                    CWEChart(obj);
                     var folder = obj["0"];
                     console.log(obj);
                     $("#reportLink").attr("href", 'http://localhost:8080/FYPScanner-1718/generatedJSON/'
@@ -48,6 +48,7 @@ $(document).ready(function () {
                     $('#display').css({"display": "none"});
                     $('a.download').css({"display": "block"});
                     $('#displayHTML').css({"display": "block"});
+                    scroll_to_div("reportLink");
                 },
                 error: function (e) {
                     console.log("ERROR : ", e);
