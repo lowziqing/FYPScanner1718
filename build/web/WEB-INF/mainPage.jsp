@@ -10,7 +10,7 @@
 <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link href="CSS/stylecss.css" rel="stylesheet" type="text/css"> 
+<link href="CSS/MainPage.css" rel="stylesheet" type="text/css"> 
 
     <script type="text/javascript" src="JavaScript/jquery-3.2.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -31,8 +31,8 @@
         <table class="menu">
             <tr>
                 <td><a href="http://localhost:8080/FYPScanner-1718/"> HOME </a></td>
-                <td><a href="#home"> HOW IT WORKS </a></td>
-                <td><a href="#home"> STATISTICS </a></td>
+                <td><a href="http://localhost:8080/FYPScanner-1718/HowItWorks.jsp"> HOW IT WORKS </a></td>
+                <td><a href="http://localhost:8080/FYPScanner-1718/Statistics.jsp"> STATISTICS </a></td>
             </tr>
         </table>
         </div>
@@ -81,7 +81,7 @@
 
     </div>
 
-    <div class="parallax">
+    <div class="parallax2">
         <div id="displayReport">
             <a id="reportLink" href="" class="download" target="_blank">
                 <img src="Pictures/viewFile.png" style="height:180px;">

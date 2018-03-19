@@ -5,6 +5,14 @@
         <param-value>Development</param-value>
     </context-param>
     <servlet>
+        <servlet-name>HowItWorks</servlet-name>
+        <jsp-file>/WEB-INF/HowItWorks.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>Statistics</servlet-name>
+        <jsp-file>/WEB-INF/Statistics.jsp</jsp-file>
+    </servlet>
+    <servlet>
         <servlet-name>Faces Servlet</servlet-name>
         <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
@@ -25,6 +33,14 @@
         <servlet-name>UploadServlet</servlet-name>
         <url-pattern>/Servlets.UploadServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HowItWorks</servlet-name>
+        <url-pattern>/HowItWorks.jsp</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Statistics</servlet-name>
+        <url-pattern>/Statistics.jsp</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
@@ -32,7 +48,7 @@
     </session-config>
     <welcome-file-list>
         <!--        <welcome-file>/displayText.html</welcome-file>
--->
+        -->
         <welcome-file>/WEB-INF/mainPage.jsp</welcome-file>
     </welcome-file-list>
 </web-app>

@@ -1,0 +1,137 @@
+body, p {
+    font: 400 16px/1.6 "Source Sans Pro",sans-serif;
+    color: #403b2d;
+    margin-top: -20px;
+}   
+
+p {
+  font-size:26px;  
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 60%;
+    border-top: 1px solid #8c8b8b
+}
+
+h1 {
+    font: 55px "Source Sans Pro", sans-serif;
+    letter-spacing: 7px;
+    color:white;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px; 
+    text-transform:capitalize;
+    padding: 320px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+h1.header{
+    font: 25px "Source Sans Pro", sans-serif;
+    color: #dc606c;
+    padding:30px 0px 0px 0px;
+}
+
+.menu{
+    font: 22px "Source Sans Pro", sans-serif;
+    color:white;
+}
+
+.menu td{
+    padding: 10px 50px 0px 0px;
+}
+
+a:visited,
+a{
+    color: white;
+}
+
+a:hover{
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+.navigation{
+    padding:80px 200px 0px 0px;
+    float: right;
+}
+
+h3{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font: 20px "proxima-nova", sans-serif;
+    color: #111;
+}
+
+h4{
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font: 16px "proxima-nova", sans-serif;
+    color: #111;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../Pictures/Statistics1.jpeg");
+    /* Set a specific height */
+    min-height: 650px; 
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../Pictures/Statistics1.jpeg");
+    /* Set a specific height */
+    min-height: 350px; 
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.goToInstruction{
+    margin: 90px 0px 0px 0px;
+}
+
+img.goToDisplay{
+    
+}
+
+img.returnHome {
+    margin:0px 0px 50px 0px;
+}
+
+
+
+/*      Wraps around Dynamic Contents       */
+.webcontent{
+    margin-top: 50px;
+    height:900px;
+    background-color:transparent;
+}
+
+table.graphChart{
+    text-align:center;
+}
+
+/*      Footer      */
+.webfooter{
+    height:30px;
+    color:#ddd;
+    background-color:#282E34;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px; 
+    letter-spacing: 1px; 
+}
+
