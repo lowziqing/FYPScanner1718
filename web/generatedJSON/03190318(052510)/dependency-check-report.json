@@ -1,0 +1,1396 @@
+{
+  "reportSchema": "1.0",
+  "scanInfo": {
+    "engineVersion": "2.1.0",
+    "dataSource": [
+      {
+        "name": "NVD CVE 2002",
+        "timestamp": "22/02/2018 17:05:25"
+      },
+      {
+        "name": "NVD CVE 2003",
+        "timestamp": "22/02/2018 17:01:31"
+      },
+      {
+        "name": "NVD CVE 2004",
+        "timestamp": "21/02/2018 16:25:40"
+      },
+      {
+        "name": "NVD CVE 2005",
+        "timestamp": "18/01/2018 17:04:42"
+      },
+      {
+        "name": "NVD CVE 2006",
+        "timestamp": "11/03/2018 15:57:24"
+      },
+      {
+        "name": "NVD CVE 2007",
+        "timestamp": "11/03/2018 15:52:09"
+      },
+      {
+        "name": "NVD CVE 2008",
+        "timestamp": "08/03/2018 16:44:01"
+      },
+      {
+        "name": "NVD CVE 2009",
+        "timestamp": "06/03/2018 16:48:25"
+      },
+      {
+        "name": "NVD CVE 2010",
+        "timestamp": "06/03/2018 16:44:14"
+      },
+      {
+        "name": "NVD CVE 2011",
+        "timestamp": "11/03/2018 15:46:55"
+      },
+      {
+        "name": "NVD CVE 2012",
+        "timestamp": "11/03/2018 15:40:14"
+      },
+      {
+        "name": "NVD CVE 2013",
+        "timestamp": "11/03/2018 15:35:18"
+      },
+      {
+        "name": "NVD CVE 2014",
+        "timestamp": "11/03/2018 15:30:07"
+      },
+      {
+        "name": "NVD CVE 2015",
+        "timestamp": "11/03/2018 15:53:07"
+      },
+      {
+        "name": "NVD CVE 2016",
+        "timestamp": "11/03/2018 15:18:32"
+      },
+      {
+        "name": "NVD CVE 2017",
+        "timestamp": "11/03/2018 15:11:39"
+      },
+      {
+        "name": "NVD CVE 2018",
+        "timestamp": "11/03/2018 15:01:03"
+      },
+      {
+        "name": "NVD CVE Checked",
+        "timestamp": "19/03/2018 17:22:52"
+      },
+      {
+        "name": "NVD CVE Modified",
+        "timestamp": "18/03/2018 22:01:50"
+      },
+      {
+        "name": "VersionCheckOn",
+        "timestamp": "1521025906577"
+      }
+    ]
+  },
+  "projectInfo": {
+    "name": "Project_03190318(052510)",
+    "version": "2.1.0",
+    "reportDate": "2018-03-19T17:25:18.084+0800",
+    "credits": {
+      "NVD": "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+      "NSP": "This report may contain data retrieved from the Node Security Platform: https://nodesecurity.io"
+    }
+  },
+  "dependencies": [
+    {
+      "fileName": "crawljax.jar",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar",
+      "md5": "0da4f0e6f8204b3bbe871a619e9f9a03",
+      "sha1": "96f290f2867a2c4b01e9e0199a6a205bee0aada7",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "crawljax"
+          }
+        ],
+        "versionEvidence": []
+      },
+      "identifiers": []
+    },
+    {
+      "fileName": "crawljax.jar: dummy-plugin.jar",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master\\web\\src\\test\\resources\\dummy-plugin.jar",
+      "md5": "f437e2ff28b7c3093597e32aa42e2ebf",
+      "sha1": "a2712435cab95c9328d909fb81ad23ca0ae275a6",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "dummy-plugin"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "dummy-plugin"
+          }
+        ],
+        "versionEvidence": []
+      },
+      "identifiers": []
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/cli/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/cli/pom.xml",
+      "md5": "c1f24a5d3d1307ab053c68efc44e0b29",
+      "sha1": "dd5b61faac4542aee393c01e9a52c88d2a2378bd",
+      "description": "The Crawljax command line interface",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "The Crawljax command line interface"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax CLI"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-cli"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "The Crawljax command line interface"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax CLI"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-cli:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/core/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/core/pom.xml",
+      "md5": "d57bf600f5272f5e86e4d2634a7fe1cf",
+      "sha1": "88d74dafbd8beb535724ba59da5c52f0c15c4e48",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-core"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax core"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-core"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax core"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-core:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/examples/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/examples/pom.xml",
+      "md5": "4e334c5df8be884ed363f64e43c1b790",
+      "sha1": "8af4ec4fa7797866e86ec06cd5f35915960f65bf",
+      "description": "Crawljax usage example",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-examples"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Crawljax usage example"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax Examples"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-examples"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Crawljax usage example"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax Examples"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-examples:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/plugin-archetype/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/plugin-archetype/pom.xml",
+      "md5": "bcb0ebef1a75eba1c2e1a96f051d84af",
+      "sha1": "13d6c191ff22b31a364716869e11850cb23626d5",
+      "description": "\n\t\tGenerates a Crawljax project template.\n\t",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-plugins-archetype"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Generates a Crawljax project template."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins.archetypes"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax plugins archetype"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-plugins-archetype"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Generates a Crawljax project template."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins.archetypes"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax plugins archetype"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax.plugins.archetypes:crawljax-plugins-archetype:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/plugin-archetype/src/main/resources/archetype-resources/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/plugin-archetype/src/main/resources/archetype-resources/pom.xml",
+      "md5": "eb347135e095595be5e0f676fd093168",
+      "sha1": "9515cb6d012ffd6cbb13abda1c0cbd452b365d64",
+      "description": "A plugin for...",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "\\${artifactId}"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "A plugin for..."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "\\${groupId}"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "A Crawljax plugin."
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://crawljax.com"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "\\${artifactId}"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "A plugin for..."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "\\${groupId}"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "A Crawljax plugin."
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "\\${version}"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "\\${version}"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "${groupId}:${artifactId}:${version}",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/plugins/crawloverview-plugin/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/plugins/crawloverview-plugin/pom.xml",
+      "md5": "5b7c14b6d419dfc07686596ca8e6b9bb",
+      "sha1": "c1f98fc11fea6bbc881da73681e018501dc43ceb",
+      "description": "\n\t\tGenerates an HTML report with a snapshot overview of what is crawled.\n\t",
+      "license": "GNU General Public License v3: LICENSE",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawloverview-plugin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Generates an HTML report with a snapshot overview of what is crawled."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawl Overview Plugin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://www.crawljax.com"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawloverview-plugin"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Generates an HTML report with a snapshot overview of what is crawled."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawl Overview Plugin"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax.plugins:crawloverview-plugin:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/plugins/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/plugins/pom.xml",
+      "md5": "da786281bc62730d5f75a754ecdb7c40",
+      "sha1": "20b140773c68f18f91ac92b27d3987a9c2e3f1b5",
+      "description": "Parent plugin POM.",
+      "license": "GNU General Public License v3: http://www.gnu.org/licenses/gpl.html",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Parent plugin POM."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax plugins parent POM"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "Parent plugin POM."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax plugins parent POM"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax.plugins:crawljax-plugins-parent:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/plugins/test-plugin/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/plugins/test-plugin/pom.xml",
+      "md5": "282ab0fc2cb8f2e9855539c932f003e3",
+      "sha1": "bc48771659a4403d3121151e676d616566f61491",
+      "description": "A plugin for testing",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "test-plugin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "A plugin for testing"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Test Plugin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://crawljax.com"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "test-plugin"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "description",
+            "value": "A plugin for testing"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax.plugins"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Test Plugin"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-plugins-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax.plugins"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax.plugins:test-plugin:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/pom.xml",
+      "md5": "ecfff1b58268660c7dac83cdf1976c5c",
+      "sha1": "2af0f88b2eabf0afde5726d836274e13271e9b12",
+      "description": "\n\t\tCrawling Ajax applications through dynamic analysis and\n\t\treconstruction of the UI state changes. Crawljax is based on a\n\t\tmethod which dynamically builds a `state-flow graph' modeling\n\t\tthe various navigation paths and states within an Ajax\n\t\tapplication.\n\t",
+      "license": "The Apache Software License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "description",
+            "value": "Crawling Ajax applications through dynamic analysis and reconstruction of the UI state changes. Crawljax is based on a method which dynamically builds a `state-flow graph' modeling the various navigation paths and states within an Ajax application."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax parent POM"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://crawljax.com"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "description",
+            "value": "Crawling Ajax applications through dynamic analysis and reconstruction of the UI state changes. Crawljax is based on a method which dynamically builds a `state-flow graph' modeling the various navigation paths and states within an Ajax application."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax parent POM"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-parent-pom:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/test-utils/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/test-utils/pom.xml",
+      "md5": "b2966519ec52d1707db87087cc094ec5",
+      "sha1": "83124d3483bb1095344b80e4fe215c90e1f78610",
+      "description": "This artifact offers Crawljax plugin developers a convenient way to test their plugins by offering several default sites with known/expected output.",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-test-utils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "description",
+            "value": "This artifact offers Crawljax plugin developers a convenient way to test their plugins by offering several default sites with known/expected output."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax test utilities"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "carwljax.com"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-test-utils"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "description",
+            "value": "This artifact offers Crawljax plugin developers a convenient way to test their plugins by offering several default sites with known/expected output."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax test utilities"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-test-utils:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    },
+    {
+      "fileName": "crawljax.jar\\crawljax-master/web/pom.xml",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052510)\\crawljax.jar\\crawljax-master/web/pom.xml",
+      "md5": "be778aaeaee91b4912b8b9965e779d9e",
+      "sha1": "b3d5ee3a0bae8c81b56e329c3ebb1ba2ebc1fc12",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-web"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax web interface"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "crawljax-web"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "groupid",
+            "value": "crawljax"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Crawljax web interface"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "crawljax-parent-pom"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "com.crawljax"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.7-SNAPSHOT"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "com.crawljax:crawljax-web:3.7-SNAPSHOT",
+          "type": "maven",
+          "confidence": "HIGH",
+          "suppressedIdentifiers": []
+        }
+      ]
+    }
+  ]
+}

@@ -5,13 +5,14 @@
         <group>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/JavaScript/Statistics.js</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/WEB-INF/mainPage.jsp</file>
-            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/WEB-INF/HowItWorks.jsp</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/CSS/Statistics.css</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/JavaScript/fileUpload.js</file>
+            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/generatedJSON/03190318(064208)/dependency-check-report.json</file>
+            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/src/java/Controller/JSOUPController.java</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/WEB-INF/Statistics.jsp</file>
-            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/CSS/HowItWorks.css</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/JavaScript/generatePieChart.js</file>
-            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/CSS/MainPage.css</file>
+            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/src/java/Controller/FileScanController.java</file>
+            <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/src/java/Controller/JSONController.java</file>
             <file>file:/C:/Users/Low%20Zi%20Qing/Documents/NetBeansProjects/FYPScanner-1718/web/JavaScript/generateReport.js</file>
         </group>
     </open-files>

@@ -1,0 +1,376 @@
+{
+  "reportSchema": "1.0",
+  "scanInfo": {
+    "engineVersion": "2.1.0",
+    "dataSource": [
+      {
+        "name": "NVD CVE 2002",
+        "timestamp": "22/02/2018 17:05:25"
+      },
+      {
+        "name": "NVD CVE 2003",
+        "timestamp": "22/02/2018 17:01:31"
+      },
+      {
+        "name": "NVD CVE 2004",
+        "timestamp": "21/02/2018 16:25:40"
+      },
+      {
+        "name": "NVD CVE 2005",
+        "timestamp": "18/01/2018 17:04:42"
+      },
+      {
+        "name": "NVD CVE 2006",
+        "timestamp": "11/03/2018 15:57:24"
+      },
+      {
+        "name": "NVD CVE 2007",
+        "timestamp": "11/03/2018 15:52:09"
+      },
+      {
+        "name": "NVD CVE 2008",
+        "timestamp": "08/03/2018 16:44:01"
+      },
+      {
+        "name": "NVD CVE 2009",
+        "timestamp": "06/03/2018 16:48:25"
+      },
+      {
+        "name": "NVD CVE 2010",
+        "timestamp": "06/03/2018 16:44:14"
+      },
+      {
+        "name": "NVD CVE 2011",
+        "timestamp": "11/03/2018 15:46:55"
+      },
+      {
+        "name": "NVD CVE 2012",
+        "timestamp": "11/03/2018 15:40:14"
+      },
+      {
+        "name": "NVD CVE 2013",
+        "timestamp": "11/03/2018 15:35:18"
+      },
+      {
+        "name": "NVD CVE 2014",
+        "timestamp": "11/03/2018 15:30:07"
+      },
+      {
+        "name": "NVD CVE 2015",
+        "timestamp": "11/03/2018 15:53:07"
+      },
+      {
+        "name": "NVD CVE 2016",
+        "timestamp": "11/03/2018 15:18:32"
+      },
+      {
+        "name": "NVD CVE 2017",
+        "timestamp": "11/03/2018 15:11:39"
+      },
+      {
+        "name": "NVD CVE 2018",
+        "timestamp": "11/03/2018 15:01:03"
+      },
+      {
+        "name": "NVD CVE Checked",
+        "timestamp": "19/03/2018 17:22:52"
+      },
+      {
+        "name": "NVD CVE Modified",
+        "timestamp": "18/03/2018 22:01:50"
+      },
+      {
+        "name": "VersionCheckOn",
+        "timestamp": "1521025906577"
+      }
+    ]
+  },
+  "projectInfo": {
+    "name": "Project_03190318(052214)",
+    "version": "2.1.0",
+    "reportDate": "2018-03-19T17:22:57.816+0800",
+    "credits": {
+      "NVD": "This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov",
+      "NSP": "This report may contain data retrieved from the Node Security Platform: https://nodesecurity.io"
+    }
+  },
+  "dependencies": [
+    {
+      "fileName": "MonjaDB.jar",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052214)\\MonjaDB.jar",
+      "md5": "e50949ea78d3d4cfa0698203683f456f",
+      "sha1": "b0816252eb4cd7b0f1be1b9e7ea30e3b28aefe34",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "MonjaDB"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "MonjaDB"
+          }
+        ],
+        "versionEvidence": []
+      },
+      "identifiers": []
+    },
+    {
+      "fileName": "MonjaDB.jar: jsch-0.1.46.jar",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052214)\\MonjaDB.jar\\MonjaDB-master\\lib\\jsch-0.1.46.jar",
+      "md5": "b768001ecb705c54e3fd21778aaedbca",
+      "sha1": "f5dc1495a9fc343030ad293bf3f10b2bacdfcf88",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "jsch"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "jcraft"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "jsch"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "jsch"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "jsch"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "MEDIUM",
+            "source": "file",
+            "name": "name",
+            "value": "jsch"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "file",
+            "name": "version",
+            "value": "0.1.46"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "cpe:/a:jcraft:jsch:0.1.46",
+          "type": "cpe",
+          "confidence": "LOW",
+          "suppressedIdentifiers": []
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "name": "CVE-2016-5725",
+          "cvssScore": "4.3",
+          "cvssAccessVector": "NETWORK",
+          "cvssAccessComplexity": "MEDIUM",
+          "cvssAuthenticationr": "NONE",
+          "cvssConfidentialImpact": "NONE",
+          "cvssIntegrityImpact": "PARTIAL",
+          "cvssAvailabilityImpact": "NONE",
+          "severity": "Medium",
+          "cwe": "CWE-22 Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+          "description": "Directory traversal vulnerability in JCraft JSch before 0.1.54 on Windows, when the mode is ChannelSftp.OVERWRITE, allows remote SFTP servers to write to arbitrary files via a ..\\ (dot dot backslash) in a response to a recursive GET command.",
+          "notes": "",
+          "references": [
+            {
+              "source": "BID",
+              "url": "http://www.securityfocus.com/bid/93100",
+              "name": "93100"
+            },
+            {
+              "source": "FULLDISC",
+              "url": "http://seclists.org/fulldisclosure/2016/Sep/53",
+              "name": "20160921 CVE-2016-5725 - JCraft/JSch Java Secure Channel <= 0.1.53 recursive sftp-get path traversal (client-side, windows)"
+            },
+            {
+              "source": "CONFIRM",
+              "url": "http://www.jcraft.com/jsch/ChangeLog",
+              "name": "http://www.jcraft.com/jsch/ChangeLog"
+            },
+            {
+              "source": "MISC",
+              "url": "https://github.com/tintinweb/pub/tree/master/pocs/cve-2016-5725",
+              "name": "https://github.com/tintinweb/pub/tree/master/pocs/cve-2016-5725"
+            },
+            {
+              "source": "EXPLOIT-DB",
+              "url": "https://www.exploit-db.com/exploits/40411/",
+              "name": "40411"
+            },
+            {
+              "source": "MISC",
+              "url": "http://packetstormsecurity.com/files/138809/jsch-0.1.53-Path-Traversal.html",
+              "name": "http://packetstormsecurity.com/files/138809/jsch-0.1.53-Path-Traversal.html"
+            },
+            {
+              "source": "REDHAT",
+              "url": "https://access.redhat.com/errata/RHSA-2017:3115",
+              "name": "RHSA-2017:3115"
+            }
+          ],
+          "vulnerableSoftware": [
+            {
+              "software": "cpe:/a:jcraft:jsch:0.1.53",
+              "allPreviousVersion": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "MonjaDB.jar: mongo-2.7.2.jar",
+      "filePath": "C:\\Users\\Low Zi Qing\\Documents\\NetBeansProjects\\FYPScanner-1718\\uploadedFiles\\03190318(052214)\\MonjaDB.jar\\MonjaDB-master\\lib\\mongo-2.7.2.jar",
+      "md5": "58e0c1ef7280bceb5d588b55744f0c4b",
+      "sha1": "eca6c5887a8334f5b191db42235e121cb0ba0fe6",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "mongo"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "mongodb"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "com.mongodb"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "mongo"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "MongoDB"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "com.mongodb"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "MEDIUM",
+            "source": "file",
+            "name": "name",
+            "value": "mongo"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "file",
+            "name": "version",
+            "value": "2.7.2"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "2.7.2"
+          }
+        ]
+      },
+      "identifiers": [
+        {
+          "name": "cpe:/a:mongodb:mongodb:2.7.2",
+          "type": "cpe",
+          "confidence": "LOW",
+          "url": "https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&cves=on&cpe_version=cpe%3A%2Fa%3Amongodb%3Amongodb",
+          "suppressedIdentifiers": []
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "name": "CVE-2014-8180",
+          "cvssScore": "2.1",
+          "cvssAccessVector": "LOCAL",
+          "cvssAccessComplexity": "LOW",
+          "cvssAuthenticationr": "NONE",
+          "cvssConfidentialImpact": "NONE",
+          "cvssIntegrityImpact": "NONE",
+          "cvssAvailabilityImpact": "PARTIAL",
+          "severity": "Low",
+          "cwe": "CWE-287 Improper Authentication",
+          "description": "MongoDB on Red Hat Satellite 6 allows local users to bypass authentication by logging in with an empty password and delete information which can cause a Denial of Service.",
+          "notes": "",
+          "references": [
+            {
+              "source": "CONFIRM",
+              "url": "https://access.redhat.com/documentation/en-us/red_hat_satellite/6.2/html/installation_guide/preparing_your_environment_for_installation#restricting_access_to_mongod",
+              "name": "https://access.redhat.com/documentation/en-us/red_hat_satellite/6.2/html/installation_guide/preparing_your_environment_for_installation#restricting_access_to_mongod"
+            },
+            {
+              "source": "CONFIRM",
+              "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1301703",
+              "name": "https://bugzilla.redhat.com/show_bug.cgi?id=1301703"
+            }
+          ],
+          "vulnerableSoftware": [
+            {
+              "software": "cpe:/a:mongodb:mongodb"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

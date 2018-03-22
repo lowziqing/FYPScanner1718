@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<analysis xmlns="https://jeremylong.github.io/DependencyCheck/dependency-check.1.5.xsd">
+    <scanInfo>
+        <engineVersion>2.1.0</engineVersion>
+        <dataSource>
+            <name>NVD CVE 2002</name>
+            <timestamp>22/02/2018 17:05:25</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2003</name>
+            <timestamp>22/02/2018 17:01:31</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2004</name>
+            <timestamp>21/02/2018 16:25:40</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2005</name>
+            <timestamp>18/01/2018 17:04:42</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2006</name>
+            <timestamp>11/03/2018 15:57:24</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2007</name>
+            <timestamp>11/03/2018 15:52:09</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2008</name>
+            <timestamp>08/03/2018 16:44:01</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2009</name>
+            <timestamp>06/03/2018 16:48:25</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2010</name>
+            <timestamp>06/03/2018 16:44:14</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2011</name>
+            <timestamp>11/03/2018 15:46:55</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2012</name>
+            <timestamp>11/03/2018 15:40:14</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2013</name>
+            <timestamp>11/03/2018 15:35:18</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2014</name>
+            <timestamp>11/03/2018 15:30:07</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2015</name>
+            <timestamp>11/03/2018 15:53:07</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2016</name>
+            <timestamp>11/03/2018 15:18:32</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2017</name>
+            <timestamp>11/03/2018 15:11:39</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE 2018</name>
+            <timestamp>11/03/2018 15:01:03</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Checked</name>
+            <timestamp>19/03/2018 17:22:52</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>NVD CVE Modified</name>
+            <timestamp>18/03/2018 22:01:50</timestamp>
+        </dataSource>
+        <dataSource>
+            <name>VersionCheckOn</name>
+            <timestamp>1521025906577</timestamp>
+        </dataSource>
+    </scanInfo>
+    <projectInfo>
+        <name>Project_03190318(052214)</name>
+        <version>2.1.0</version>
+        <reportDate>2018-03-19T17:22:57.816+0800</reportDate>
+        <credits>This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov and from the Node Security Platform: https://nodesecurity.io</credits>
+    </projectInfo>
+    <dependencies>
+        <dependency>
+            <fileName>MonjaDB.jar</fileName>
+            <filePath>C:\Users\Low Zi Qing\Documents\NetBeansProjects\FYPScanner-1718\uploadedFiles\03190318(052214)\MonjaDB.jar</filePath>
+            <md5>e50949ea78d3d4cfa0698203683f456f</md5>
+            <sha1>b0816252eb4cd7b0f1be1b9e7ea30e3b28aefe34</sha1>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>MonjaDB</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>MonjaDB</value>
+                </evidence>
+            </evidenceCollected>
+        </dependency>
+        <dependency>
+            <fileName>MonjaDB.jar: jsch-0.1.46.jar</fileName>
+            <filePath>C:\Users\Low Zi Qing\Documents\NetBeansProjects\FYPScanner-1718\uploadedFiles\03190318(052214)\MonjaDB.jar\MonjaDB-master\lib\jsch-0.1.46.jar</filePath>
+            <md5>b768001ecb705c54e3fd21778aaedbca</md5>
+            <sha1>f5dc1495a9fc343030ad293bf3f10b2bacdfcf88</sha1>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jsch</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jcraft</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jsch</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jsch</value>
+                </evidence>
+                <evidence type="product" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>jsch</value>
+                </evidence>
+                <evidence type="version" confidence="MEDIUM">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>jsch</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>0.1.46</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:jcraft:jsch:0.1.46)</name>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2016-5725</name>
+                    <cvssScore>4.3</cvssScore>
+                    <cvssAccessVector>NETWORK</cvssAccessVector>
+                    <cvssAccessComplexity>MEDIUM</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>PARTIAL</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>NONE</cvssAvailabilityImpact>
+                    <severity>Medium</severity>
+                    <cwe>CWE-22 Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;)</cwe>
+                    <description>Directory traversal vulnerability in JCraft JSch before 0.1.54 on Windows, when the mode is ChannelSftp.OVERWRITE, allows remote SFTP servers to write to arbitrary files via a ..\ (dot dot backslash) in a response to a recursive GET command.</description>
+                    <references>
+                        <reference>
+                            <source>BID</source>
+                            <url>http://www.securityfocus.com/bid/93100</url>
+                            <name>93100</name>
+                        </reference>
+                        <reference>
+                            <source>FULLDISC</source>
+                            <url>http://seclists.org/fulldisclosure/2016/Sep/53</url>
+                            <name>20160921 CVE-2016-5725 - JCraft/JSch Java Secure Channel &lt;= 0.1.53 recursive sftp-get path traversal (client-side, windows)</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>http://www.jcraft.com/jsch/ChangeLog</url>
+                            <name>http://www.jcraft.com/jsch/ChangeLog</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>https://github.com/tintinweb/pub/tree/master/pocs/cve-2016-5725</url>
+                            <name>https://github.com/tintinweb/pub/tree/master/pocs/cve-2016-5725</name>
+                        </reference>
+                        <reference>
+                            <source>EXPLOIT-DB</source>
+                            <url>https://www.exploit-db.com/exploits/40411/</url>
+                            <name>40411</name>
+                        </reference>
+                        <reference>
+                            <source>MISC</source>
+                            <url>http://packetstormsecurity.com/files/138809/jsch-0.1.53-Path-Traversal.html</url>
+                            <name>http://packetstormsecurity.com/files/138809/jsch-0.1.53-Path-Traversal.html</name>
+                        </reference>
+                        <reference>
+                            <source>REDHAT</source>
+                            <url>https://access.redhat.com/errata/RHSA-2017:3115</url>
+                            <name>RHSA-2017:3115</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software allPreviousVersion="true">cpe:/a:jcraft:jsch:0.1.53</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+        <dependency>
+            <fileName>MonjaDB.jar: mongo-2.7.2.jar</fileName>
+            <filePath>C:\Users\Low Zi Qing\Documents\NetBeansProjects\FYPScanner-1718\uploadedFiles\03190318(052214)\MonjaDB.jar\MonjaDB-master\lib\mongo-2.7.2.jar</filePath>
+            <md5>58e0c1ef7280bceb5d588b55744f0c4b</md5>
+            <sha1>eca6c5887a8334f5b191db42235e121cb0ba0fe6</sha1>
+            <evidenceCollected>
+                <evidence type="vendor" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mongo</value>
+                </evidence>
+                <evidence type="vendor" confidence="LOW">
+                    <source>jar</source>
+                    <name>package name</name>
+                    <value>mongodb</value>
+                </evidence>
+                <evidence type="vendor" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>com.mongodb</value>
+                </evidence>
+                <evidence type="product" confidence="HIGH">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mongo</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>Bundle-Name</name>
+                    <value>MongoDB</value>
+                </evidence>
+                <evidence type="product" confidence="MEDIUM">
+                    <source>Manifest</source>
+                    <name>bundle-symbolicname</name>
+                    <value>com.mongodb</value>
+                </evidence>
+                <evidence type="version" confidence="MEDIUM">
+                    <source>file</source>
+                    <name>name</name>
+                    <value>mongo</value>
+                </evidence>
+                <evidence type="version" confidence="HIGHEST">
+                    <source>file</source>
+                    <name>version</name>
+                    <value>2.7.2</value>
+                </evidence>
+                <evidence type="version" confidence="HIGH">
+                    <source>Manifest</source>
+                    <name>Bundle-Version</name>
+                    <value>2.7.2</value>
+                </evidence>
+            </evidenceCollected>
+            <identifiers>
+                <identifier type="cpe" confidence="LOW">
+                    <name>(cpe:/a:mongodb:mongodb:2.7.2)</name>
+                    <url>https://web.nvd.nist.gov/view/vuln/search-results?adv_search=true&amp;cves=on&amp;cpe_version=cpe%3A%2Fa%3Amongodb%3Amongodb</url>
+                </identifier>
+            </identifiers>
+            <vulnerabilities>
+                <vulnerability>
+                    <name>CVE-2014-8180</name>
+                    <cvssScore>2.1</cvssScore>
+                    <cvssAccessVector>LOCAL</cvssAccessVector>
+                    <cvssAccessComplexity>LOW</cvssAccessComplexity>
+                    <cvssAuthenticationr>NONE</cvssAuthenticationr>
+                    <cvssConfidentialImpact>NONE</cvssConfidentialImpact>
+                    <cvssIntegrityImpact>NONE</cvssIntegrityImpact>
+                    <cvssAvailabilityImpact>PARTIAL</cvssAvailabilityImpact>
+                    <severity>Low</severity>
+                    <cwe>CWE-287 Improper Authentication</cwe>
+                    <description>MongoDB on Red Hat Satellite 6 allows local users to bypass authentication by logging in with an empty password and delete information which can cause a Denial of Service.</description>
+                    <references>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://access.redhat.com/documentation/en-us/red_hat_satellite/6.2/html/installation_guide/preparing_your_environment_for_installation#restricting_access_to_mongod</url>
+                            <name>https://access.redhat.com/documentation/en-us/red_hat_satellite/6.2/html/installation_guide/preparing_your_environment_for_installation#restricting_access_to_mongod</name>
+                        </reference>
+                        <reference>
+                            <source>CONFIRM</source>
+                            <url>https://bugzilla.redhat.com/show_bug.cgi?id=1301703</url>
+                            <name>https://bugzilla.redhat.com/show_bug.cgi?id=1301703</name>
+                        </reference>
+                    </references>
+                    <vulnerableSoftware>
+                        <software>cpe:/a:mongodb:mongodb</software>
+                    </vulnerableSoftware>
+                </vulnerability>
+            </vulnerabilities>
+        </dependency>
+    </dependencies>
+</analysis>
