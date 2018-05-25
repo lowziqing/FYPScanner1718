@@ -1,10 +1,6 @@
 function generateReport(obj) {
-//    var folder = obj["0"];
-//    var projectInfo = obj["1"];
-//    var Dependencies = obj["2"];
     var basicInfo = obj["3"];
     var vulnerableDependencies = obj["4"];
-    //projectInfo = obj.map(a => a.name);
 
     console.log("basic info " + basicInfo.projectName);
     console.log("basic info date " + basicInfo.reportDate);

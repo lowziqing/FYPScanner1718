@@ -1,3 +1,8 @@
+/*
+    Read the JSON file
+    Convert to GSON and create it to ReportData.class
+*/
+
 package Controller;
 
 import com.google.gson.*;

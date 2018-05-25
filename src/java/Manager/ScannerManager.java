@@ -1,3 +1,7 @@
+/*
+    Main Controller to call all the functions
+*/
+
 package Manager;
 
 import Controller.FileUploadController;
@@ -18,13 +22,11 @@ public class ScannerManager {
             if (Completed) {
                 JSONController JS = new JSONController(response);
                 JSONController.convertObject(folderID);
-                //JSONController.passObject();
             } else {
                 response.getWriter().print("not completed");
             }
-        } catch (Exception e) {
-
+        } catch (IOException | InterruptedException e) {
+            System.out.println("retrieveRequest Error Message: " + e);
         }
     }
 }
-

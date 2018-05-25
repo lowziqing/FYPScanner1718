@@ -1,3 +1,9 @@
+/*
+    Process String Builder
+    Create multiple processes for different uploads
+    Calls Dependency check CLI
+*/
+
 package Controller;
 
 import java.io.File;
@@ -24,7 +30,6 @@ public class FileScanController {
         final String variable4 = "ALL";
 
         final String path = "C://Users/Low Zi Qing/Desktop/FYP/dependency-check/bin/";
-        //final String path = "C://Users/Low Zi Qing/DependencyCheck/dependency-check-cli/target/release/bin";
 
         try {
             ProcessBuilder pb = new ProcessBuilder(
@@ -43,6 +48,7 @@ public class FileScanController {
             System.out.println("4.  Process Destroyed");
             process.destroy();
 
+            // Test the time taken for the process to complete
             LocalDateTime dateTime2 = LocalDateTime.now();
             long diffInSeconds = java.time.Duration.between(dateTime1, dateTime2).getSeconds();
             long diffInMilli = java.time.Duration.between(dateTime1, dateTime2).toMillis();

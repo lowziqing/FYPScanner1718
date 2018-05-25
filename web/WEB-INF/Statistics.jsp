@@ -37,7 +37,6 @@
         <h1>Statistics</h1>
       
     </div>
-
     
     <div class="webcontent">
         <h1 class="header"> CVEs Throughout The Years </h1>
@@ -53,11 +52,7 @@
     <div class="parallax2">
 
     </div>
-    
-   
-    
- 
-    
+     
     <div class="webfooter"> Nanyang Technological University: School of Computer Science and Engineering </div>
     </center>
 

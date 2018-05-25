@@ -1,3 +1,8 @@
+/*
+    Request and response from the browser to server
+    Vice Versa
+*/
+
 package Servlets;
 
 import java.io.IOException;

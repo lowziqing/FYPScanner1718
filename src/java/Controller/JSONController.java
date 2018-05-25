@@ -1,3 +1,9 @@
+/*
+    Convert classes into objects
+    Objects will be converted to JSON 
+    Ready to be parse over to Web Browser
+*/
+
 package Controller;
 
 import com.google.gson.Gson;

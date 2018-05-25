@@ -1,3 +1,8 @@
+/*
+    Creates folder to store all the uploaded file
+    Unique Identifer is created for each upload.
+*/
+
 package Controller;
 
 import java.io.File;
@@ -13,6 +18,7 @@ import org.apache.commons.fileupload.servlet.ServletFileUpload;
 
 public class FileUploadController {
 
+    // Limits the size of the upload
     private static final int MEMORY_THRESHOLD = 1024 * 1024 * 500;  // 500MB
     private static final int MAX_FILE_SIZE = 1024 * 1024 * 500; // 500MB
     private static final int MAX_REQUEST_SIZE = 1024 * 1024 * 500; // 500MB

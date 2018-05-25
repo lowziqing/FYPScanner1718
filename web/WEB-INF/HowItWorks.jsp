@@ -34,7 +34,6 @@
         <h1>How It Works</h1>
     </div>
 
-
     <div class="webcontent">
 
         <h1 class="header"> Searching For Vulnerabilities </h1>
@@ -79,10 +78,6 @@
     <div class="parallax2">
 
     </div>
-    
-   
-    
- 
     
     <div class="webfooter"> Nanyang Technological University: School of Computer Science and Engineering </div>
     </center>

@@ -1,3 +1,7 @@
+/*
+    Extract out all the information information generated In HTML format
+*/
+
 package Controller;
 
 import java.io.File;
@@ -98,14 +102,6 @@ public class JSOUPController {
             System.out.println("finish all the for loop");
 
             HV = new HTMLVulnerability(dependenciesNames, CPEs, Severity, CVEcount);
-//            for (int i = 0; i < CPEs.size(); i++) {
-//                for (int m = 0; m < CPEs.get(i).size(); m++) {
-//                    System.out.println("CPE " + i + ": " + CPEs.get(i).get(m));
-//                }
-//            }
-//            for (int i = 0; i < dependenciesNames.size(); i++) {
-//                System.out.println("Dependency Number " + i + " " + dependenciesNames.get(i));
-//            }
 
         } catch (IOException exception) {
             System.out.println("getVulnerableDependencies Parsing Error" + exception);
@@ -154,8 +150,6 @@ public class JSOUPController {
                 }
                 CWEs.add(storedCWEs);
                 Severity.add(storedSeverity);
-//                System.out.println("Most Common High CWE: " + mostCommonElement(highCWE) + "\n Most common Medium CWE: "
-//                        + mostCommonElement(mediumCWE) + "\n Most common Low CWE: " + mostCommonElement(lowCWE));
             }
 
             CWE = new HTMLCWE(CWEs, Severity, mostCommonElement(highCWE), mostCommonElement(mediumCWE), mostCommonElement(lowCWE));

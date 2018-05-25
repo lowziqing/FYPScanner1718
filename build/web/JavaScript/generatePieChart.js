@@ -90,7 +90,7 @@ function CWEChart(obj) {
     if (commonHigh === null || commonHigh === 0) {
         commonHigh = "None";
     }
-    
+
     console.log(commonHigh + "  " + commonMedium + "  " + commonLow);
 
     for (i = 0; i < CWEs.CWE.length; i++) {
@@ -110,14 +110,6 @@ function CWEChart(obj) {
         ['High Severity', high, '#d97e78', "Most Common CWE: \n" + commonHigh]
     ]);
 
-//    var view = new google.visualization.DataView(data);
-//    view.setColumns([0, 1,
-//        {calc: "stringify",
-//            sourceColumn: 1,
-//            type: "string",
-//            role: "annotation"},
-//        2]);
-
     var options = {
         title: "Number of CWE per Severity",
         width: 1300,
@@ -131,4 +123,3 @@ function CWEChart(obj) {
     chart.draw(data, options);
 
 }
-

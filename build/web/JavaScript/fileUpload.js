@@ -33,7 +33,6 @@ $(document).ready(function () {
                 timeout: 600000,
                 success: function (data) {
                     obj = JSON.parse(data);
-                    //var folder = obj.map(function(a) {return a.folderName;});
                     generateReport(obj);
                     vulnerabilityChart(obj);
                     highestSeverityChart(obj);

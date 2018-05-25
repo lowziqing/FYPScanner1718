@@ -31,12 +31,12 @@ $(document).ready(function () {
             bar: {groupWidth: "60%"},
             legend: {position: "none"},
             trendlines: {
-            0: {
-              type: 'linear',
-              showR2: true,
-              visibleInLegend: true
+                0: {
+                    type: 'linear',
+                    showR2: true,
+                    visibleInLegend: true
+                }
             }
-        }
         };
         var chart = new google.visualization.LineChart(document.getElementById("CVEchart"));
         chart.draw(data, options);
